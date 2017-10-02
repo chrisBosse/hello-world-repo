@@ -22,8 +22,10 @@ Resize Terminal Font.  (Tried on Ubuntu 16.04.2 Desktop.)  Found on StackOverflo
 setfont /usr/share/consolefonts/Lat7-Terminus28x14.psf.gz
 ```
 
-Change `Caps Lock` to an extra `Ctrl` key.  (Only works in X.)  Temporary.  Using `Alt`+`F1` then `Alt`+`F7` will reset.
+Change `Caps Lock` to an extra `Ctrl` key.  (Only works in X.)  Temporary.  Using `Alt`+`F1` then `Alt`+`F7` will reset.  From [1].
 
 ```bash
 setxkbmap -option ctrl:nocaps
 ```
+
+[1] https://www.emacswiki.org/emacs/MovingTheCtrlKey
