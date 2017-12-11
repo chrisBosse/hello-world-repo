@@ -62,7 +62,8 @@ set t_vb=
 
 " [3]
 " Enable use of the mouse for all modes
-set mouse=a
+" - Gives me trouble with right-click pasting.
+"set mouse=a
  
 " [3]
 " Set the command window height to 2 lines, to avoid many cases of having to
