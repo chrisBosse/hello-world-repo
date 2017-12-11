@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Shortcut to check code just before committing to a git repository.
+#
+# Script assumes it is run in the project root, parallel to `.git` folder.
+#
+# Script assumes git hooks pre-commit script exists.
+#
+# Script is usually in $HOME/bin
+# Script should be executable: chmod +x c
+
+npm run lint
+.git/hooks/pre-commit

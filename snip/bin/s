@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Shortcut to start a Node.JS project.
+#
+# Script is usually in $HOME/bin
+# Script should be executable: chmod +x s
+
+npm start
