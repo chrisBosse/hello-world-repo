@@ -4,11 +4,11 @@ A first GitHub repository.
 
 Nothing much to see here!
 
-Using this repoistory to store some of my favorite settings, commands, and scripts for quick setup on new machines.
+Using this repository to store some of my favorite settings, commands, and scripts for quick setup on new machines.
 
 ## `bin`
 
-Contains files I ususally create/place in `$HOME/bin`.
+Contains files I usually create/place in `$HOME/bin`.
 
 ## `dotfiles`
 
@@ -28,4 +28,4 @@ Change `Caps Lock` to an extra `Ctrl` key.  (Only works in X.)  Temporary.  Usin
 setxkbmap -option ctrl:nocaps
 ```
 
-[1] https://www.emacswiki.org/emacs/MovingTheCtrlKey
+[1] <https://www.emacswiki.org/emacs/MovingTheCtrlKey>
